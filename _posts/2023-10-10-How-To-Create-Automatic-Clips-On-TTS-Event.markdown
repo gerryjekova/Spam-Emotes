@@ -13,11 +13,13 @@ permalink: /posts/how-to-setup-auto-clips-tts/
 >    - Go to ‘Twitch’ tab and link your Twitch
 >    - Should look like this: 
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/dba623cf-6146-403c-858c-b3c7500a70b5)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/372ac0a6-1783-4d6a-9a44-b8340b8c89fe)
+
 
 3. After it is set up, go to ‘Actions’ tab and right-click on **white space** in the Actions section. 
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/a0eb9025-e4ae-4a4a-8e12-e5fa1d5bc764)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/f3844a95-204d-455f-b689-d56df04748f7)
+
     
 > 4. Click on ‘Add’
 > 5. On the ‘Add Action’ window popup, you give the action a name (I named it ‘Auto TTS Clip Capture’, but you can name it whatever) 
@@ -26,11 +28,13 @@ permalink: /posts/how-to-setup-auto-clips-tts/
 > 8. Now we have the Action ready and we move on to the ‘Triggers’ section and right-click the **white space.**
 > 9. On the dropdown menu select **Twitch > Channel Reward > Reward Redemption**  
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/f571d9ab-1352-4488-9575-ca56650ebb71)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/818cbe1b-7dae-49c9-b739-219bc653c01a)
+
     
 10. Then you will get a popup to pick the Reward you want to set as a Trigger. (In my case, it’s ‘TTS’ Reward) and then click ‘**Ok’.** 
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/ee318a31-a0f5-423e-a245-850f15e63aa3)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/945b7afd-4201-44f2-8fb8-dfd2c9b4dee0)
+
 
 11. Before moving on to the next step, you will need to copy the below code snippet: 
     
@@ -54,7 +58,8 @@ return true;
 12. After copying the above code snippet, go to Sub-Actions section and right-click white space. 
 > 13. **Select Core > C# > Execute C# Code** 
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/a418b38f-d733-43e2-8f61-bbf417629aa4)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/53c59178-3ddf-44f6-b61f-0bd7faab5ec4)
+
 
     
 > 14. You will get a window pop-up looking like this: 
@@ -65,19 +70,22 @@ return true;
 > 15. Just remove the code inside of this window and paste the code snippet copied earlier and click on **Compile**. (CTRL+A > CTRL+V) 
 > 16. You should get a message in the Compiling Log saying that it has been compiled successfully like this: 
     
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/dd323d6e-4f7f-42b8-a44d-c11597148153)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/5df70fed-f661-4438-8b8a-296a4483d160)
+
 
     
 > 17. If the above has been compiled successfully, you can go ahead and click on **‘Save and Compile’.**
 > 18. Right-click on **Sub-Actions white space** again and select **Twitch > Channel > Create Clip**. This will create your second Sub-Action.
 
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/17aa882e-a49b-45f1-9106-20ebad86774f)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/06d74b35-403e-4b92-bacd-8449cc235619)
+
 
 1. (Optional) Go to your Discord Server and go to the channel you would like your clips to be posted to and Make a Webhook for the channel, set up the hook and copy it’s link.
 2. Right-click white space again and go to **Integrations > Discord > Basic Webhook.**
 3. Give the hook names and put the url in place of the text in the **Webhook Url** box. 
 > 4. Paste 
   
-![image](https://github.com/Hiratsuna/Casual-Blog/assets/130181277/fba8dfb7-cd2b-49b5-8ce7-75c81d2880de)
+![image](https://github.com/NqmaNazad/Spam-Emotes/assets/155331890/3d686fd6-b7f9-4a2b-ba02-fec7809b2716)
+
     
 ### 5. Automated and stored in a dedicated place :3
