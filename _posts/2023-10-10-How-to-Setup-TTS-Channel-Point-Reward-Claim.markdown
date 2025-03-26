@@ -44,3 +44,6 @@ permalink: /posts/how-to-setup-tts/
     - Put it into OBS as Browser Source with matching parameters if they are not your defaults for some reason.
     
 11. **You are good to go!**
+
+
+<div id="elevenlabs-audionative-widget" data-height="90" data-width="100%" data-frameborder="no" data-scrolling="no" data-publicuserid="90d276066ff6075dad445314b55a9683b2f5a0e938dae8e40f9ebddc01f9f4a2" data-playerurl="https://elevenlabs.io/player/index.html" >Loading the <a href="https://elevenlabs.io/text-to-speech" target="_blank" rel="noopener">Elevenlabs Text to Speech</a> AudioNative Player...</div><script src="https://elevenlabs.io/player/audioNativeHelper.js" type="text/javascript"></script>
